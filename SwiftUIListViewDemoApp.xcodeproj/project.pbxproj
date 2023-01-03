@@ -14,6 +14,8 @@
 		A310EF1529641EA90065BC61 /* SwiftUIListViewDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310EF1429641EA90065BC61 /* SwiftUIListViewDemoAppTests.swift */; };
 		A310EF1F29641EA90065BC61 /* SwiftUIListViewDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310EF1E29641EA90065BC61 /* SwiftUIListViewDemoAppUITests.swift */; };
 		A310EF2129641EA90065BC61 /* SwiftUIListViewDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310EF2029641EA90065BC61 /* SwiftUIListViewDemoAppUITestsLaunchTests.swift */; };
+		A310EF2E29641EBC0065BC61 /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310EF2D29641EBC0065BC61 /* Cats.swift */; };
+		A310EF3029641F070065BC61 /* CatListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310EF2F29641F070065BC61 /* CatListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		A310EF1A29641EA90065BC61 /* SwiftUIListViewDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIListViewDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A310EF1E29641EA90065BC61 /* SwiftUIListViewDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListViewDemoAppUITests.swift; sourceTree = "<group>"; };
 		A310EF2029641EA90065BC61 /* SwiftUIListViewDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListViewDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A310EF2D29641EBC0065BC61 /* Cats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
+		A310EF2F29641F070065BC61 /* CatListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				A310EF0329641EA50065BC61 /* SwiftUIListViewDemoAppApp.swift */,
+				A310EF2F29641F070065BC61 /* CatListRow.swift */,
 				A310EF0529641EA50065BC61 /* ContentView.swift */,
+				A310EF2D29641EBC0065BC61 /* Cats.swift */,
 				A310EF0729641EA80065BC61 /* Assets.xcassets */,
 				A310EF0929641EA80065BC61 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A310EF0629641EA50065BC61 /* ContentView.swift in Sources */,
+				A310EF2E29641EBC0065BC61 /* Cats.swift in Sources */,
 				A310EF0429641EA50065BC61 /* SwiftUIListViewDemoAppApp.swift in Sources */,
+				A310EF3029641F070065BC61 /* CatListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

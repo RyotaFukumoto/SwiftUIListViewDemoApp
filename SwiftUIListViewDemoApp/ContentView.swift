@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    let catsList: [Cats] = [
+        Cats(image: "hijiki", name: "ひじき", birth: "2019年4月20日"),
+        Cats(image: "thukushi", name: "つくし", birth: "2021年5月30日")]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List(catsList) { item in
+                CatListRow(catData: item)
+            }
         }
-        .padding()
     }
 }
 
